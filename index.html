@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Akowuah Christian Sarpong">
+    <title>Akowuah Christian Sarpong - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1975404d31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+             <img src="images/logo.png" class="logo">
+             <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#diplomas">Diplomas</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+             </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="hero" >
+        <div class="header-text" data-aos="fade-right" data-aos-duration="2000">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Christian</span><br> Sarpong Akowuah<br>From Ghana</h1> 
+        </div>
+        <img src="./images/background.png" data-aos="fade-up" data-aos-duration="2000" class="hero-image" alt="">
+    </div>
+    </div>   
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1" data-aos="fade-right" data-aos-duration="2000">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2" data-aos="fade-up" data-aos-duration="2000">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am a multidisciplinary professional with expertise across a wide range of fields in technology and environmental science. My skill set spans from web and app development to cybersecurity, combining strong technical abilities with a passion for sustainability.
+                    Web and App Development
+                    With a deep understanding of front-end technologies like HTML, CSS, and JavaScript, I build intuitive, user-friendly websites and applications. My proficiency in JavaScript algorithms allows me to create highly efficient, optimized web solutions, while my experience in Python contributes to the development of dynamic, data-driven applications. I also leverage frameworks like React and Vue.js for modern, responsive web design.
+                    Cybersecurity
+                    Security is a core aspect of my work. I implement best practices in cybersecurity to ensure that websites, applications, and network infrastructures are protected from threats. My approach includes designing robust authentication systems, encryption mechanisms, and proactive measures to prevent vulnerabilities, keeping users' data safe and secure.
+                    Computer Networking
+                    My background in computer networking allows me to build and maintain reliable network architectures, ensuring seamless communication between devices. I am skilled in configuring network protocols, managing IP networks, and optimizing performance for both local and cloud-based systems. 
+                    Data Visualization and Python Programming
+                    I have extensive experience using Python for a variety of programming needs, from automating tasks to complex data analysis. I specialize in data visualization, using libraries like Matplotlib and Plotly to transform raw data into meaningful insights. Whether I’m working on environmental data, network traffic, or app performance metrics, I make data-driven decisions easier through visually engaging representations.
+                    Environmental Science and Technology Integration
+                    Having a strong foundation in environmental science, I am passionate about integrating technology with sustainable practices. My knowledge in this area allows me to work on projects that address environmental challenges, such as using IT solutions to monitor air quality or building systems that contribute to energy efficiency. I believe in the power of technology to drive change in the way we approach environmental issues. 
+                    Problem-Solving and Innovation
+                    I thrive on solving complex problems, whether that means debugging code, optimizing network performance, or innovating new ways to reduce a system's environmental impact. My projects are rooted in a commitment to both technical excellence and a broader vision of using technology to improve lives and sustain the planet.   
+                    With my interdisciplinary knowledge in technology and environmental science, I aim to develop solutions that are both innovative and sustainable, making a positive impact on businesses and communities alike.
+                </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('research papers')">Research Papers</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Responsive Web Design</span><br>Design and Develop Websites</li>
+                            <li><span>Cybersecurity</span><br>Crypyography<br>Forensics<br>Threat Analysis</li>
+                            <li><span>Information Technology</span><br>Tech-savvy</li>
+                            <li><span>Computer Networking</span><br>Networking</li>
+                            <li><span>Digital Security</span><br>Digital Networking Security</li>
+                            <li><span>Web Application</span><br>Front End Design and Develop Apps</li>
+                            <li><span>Programming and Debugging</span><br>Python<br>Html, CSS, JavaScript<br>C#, C++</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Programmer (2023)</span><br>Msoft Ghana</li>
+                            <li><span>Internship (2023)</span><br>IPMC Ghana</li>
+                            <li><span>Internship (2024)</span><br>JIC Global LTD</li>
+                            <li><span>Internship (2024)</span><br>Lambark Gas LTD</li>
+                            <li><span>Internship (2024)</span><br>Ghana Web Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Primary (2014-2017)</span><br>Immaculate Heart of Mary School </li>
+                            <li><span>Junior High School (2017-2020)</span><br>Atimatim D/A Experimental</li>
+                            <li><span>Senior High School (2020-2023)</span><br>Kumasi High School</li>
+                            <li><span>Online Study (2024)</span><br>Alison</li>
+                            <li><span>Online Study (2024)</span><br>freeCodecamp</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="research papers">
+                        <ul>
+                            <li><span>Research papers</span><br>Fields of Time: A Machine Gaze Over Three Decades</li>
+                            <a href="https://www.linkedin.com/posts/activity-7241219695507345408-jkUx/?utm_source=share&utm_medium=member_desktop">Learn more</a>
+                        </ul>
+                    </div>
+            </div>        
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div data-aos="fade-right" data-aos-duration="2000">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Transforming ideas into interactive web experiences, one line of code at a time</p>
+            </div>
+            <div data-aos="fade-down" data-aos-duration="2000">
+                <i class="fa-solid fa-shield"></i>
+                <h2>Cybersecurity Audits</h2>
+                <p>Securing systems with precision uncovering risks before they become threats</p>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="2000">
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Crafting intuitive apps that blend technology with seamless user experiences</p>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="2000">
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Technical Support</h2>
+                <p>Empowering tech solutions with precision and proactive support</p>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
+                <i class="fa-brands fa-salesforce"></i>
+                <h2>E-commerce Development</h2>
+                <p>Creating dynamic e-commerce platforms that drive sales and delight customers</p>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="2000">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis</h2>
+                <p>Unlocking the story behind the numbers for impactful outcomes</p>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="2000">
+                <i class="fa-solid fa-handshake"></i>
+                <h2>Project Collaboration</h2>
+                <p>Building the future of technology with teamwork and innovation</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000">
+                <i class="fa-solid fa-user-secret"></i>
+                <h2>Digital Security</h2>
+                <p>Securing digital worlds, one byte at a time</p>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="2000">
+                <i class="fa-solid fa-code-fork"></i>
+                <h2>Responsive Web Design</h2>
+                <p>Crafting stunning, adaptive websites that look great on any device</p>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
+                <i class="fa-brands fa-bots"></i>
+                <h2>Automation Scripts</h2>
+                <p>I transform manual tasks into seamless automation with smart scripts</p>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Programming and Debugging</h2>
+                <p>Building code and conquering bugs for flawless software solutions</p>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="2000">
+                <i class="fa-solid fa-person-chalkboard"></i>
+                <h2>Tutorials and Workshops</h2>
+                <p>Empowering minds through hands-on tutorials and dynamic workshops</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+           <div class="work" data-aos="fade-right" data-aos-duration="2000">
+               <img src="images/work-1.jpg">
+               <div class="layer">
+                   <h3>Online Sneakers Shopping Website</h3>
+                   <p>Step into style with our sneakers👟✨</p>
+                   <a href="https://z5sdhpjwrmcnagoapfzq5wchris.on.drv.tw/ChristianSneakersOnlineShopping/"><i class="fa-solid fa-link"></i></a>
+               </div>
+           </div>
+           <div class="work" data-aos="fade-down" data-aos-duration="2000">
+               <img src="images/work-2.jpg">
+               <div class="layer">
+                   <h3>Login Template</h3>
+                   <p>Unlock your journey with a seamless login experience🔑✨</p>
+                   <a href="https://z5sdhpjwrmcnagoapfzq5wchris.on.drv.tw/ChristianLoginTemplate/"><i class="fa-solid fa-link"></i></a>
+               </div>
+           </div>
+           <div class="work" data-aos="fade-left" data-aos-duration="2000">
+               <img src="images/work-3.jpg">
+               <div class="layer">
+                   <h3>CSS animation design</h3>
+                   <p>CSS ignites stillness into motion, a vibrant dance of design🎨</p>
+                   <a href="https://z5sdhpjwrmcnagoapfzq5wchris.on.drv.tw/ChristianCSSanimationDesign/"><i class="fa-solid fa-link"></i></a>
+               </div>
+           </div>
+           <div class="work" data-aos="fade-right" data-aos-duration="2000">
+               <img src="images/work-4.png">
+               <div class="layer">
+                  <h3>Save Nature GreenTure</h3>
+                  <p>In GreenTure's embrace, we nurture nature's grace🌱🌍✨</p>
+                  <a href="https://z5sdhpjwrmcnagoapfzq5wchris.on.drv.tw/ChristianSaveNatureGreenTure/"><i class="fa-solid fa-link"></i></a>
+               </div>
+           </div>
+           <div class="work" data-aos="fade-up" data-aos-duration="2000">
+               <img src="images/work-5.jpg">
+               <div class="layer">
+                  <h3>Sliding Design</h3>
+                  <p>Natural Environmental🌍💚</p>
+                  <a href="https://z5sdhpjwrmcnagoapfzq5wchris.on.drv.tw/ChristianSlidingNaturePics/"><i class="fa-solid fa-link"></i></a>
+               </div>
+           </div>
+           <div class="work" data-aos="fade-left" data-aos-duration="2000">
+               <img src="images/work-6.jpg">
+               <div class="layer">
+                  <h3>Dashboard Template</h3>
+                  <p>Your data, beautifully visualized📊✨</p>
+                  <a href="https://z5sdhpjwrmcnagoapfzq5wchris.on.drv.tw/ChristianDashboardTemplate/"><i class="fa-solid fa-link"></i></a>
+               </div>
+           </div>
+        </div>    
+        <a href="https://www.freecodecamp.org/chris_farad" class="btn">See more</a>
+    </div> 
+</div>
+
+<div id="blogs">
+    <div class="container">
+        <h1 class="sub-title">Blogs</h1>
+        <div class="blog-list">
+            <div class="blog" data-aos="fade-right" data-aos-duration="2000">
+                <img src="images/blog-1.png">
+                <div class="layer">
+                    <h3>Coding Clean</h3>
+                    <p>Tech’s Fight Against Pollution</p>
+                    <a href="https://medium.com/@akowuahchristian3/coding-clean-techs-fight-against-pollution-6c5ddc718811"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="blog" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="images/blog-2.jpg">
+                <div class="layer">
+                    <h3>Code to Cure</h3>
+                    <p>How Computer Science is Revolutionizing Disease Diagnosis 🩺💻</p>
+                    <a href="https://medium.com/@akowuahchristian3/code-to-cure-how-computer-science-is-revolutionizing-disease-diagnosis-c9f6e7b1b3a3"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="blog" data-aos="fade-left" data-aos-duration="2000">
+                <img src="images/blog-3.jpg">
+                <div class="layer">
+                    <h3>The Symphony of AI</h3>
+                    <p>Humanity’s New Dance Partner</p>
+                    <a href="https://medium.com/@akowuahchristian3/the-symphony-of-ai-humanitys-new-dance-partner-742988ca3270"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="diplomas">
+    <div class="container">
+        <h1 class="sub-title">Diplomas</h1>
+        <div class="diploma-list">
+            <div class="diploma" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/diploma-1.jpg">
+                <div class="layer">
+                    <h3>Diploma in Computer Networking</h3>
+                    <p>Connecting the world, one network at a time🌍🔗</p>
+                    <a href="https://alison.com/certification/check/94151107d7"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="diploma" data-aos="fade-down" data-aos-duration="2000">
+                <img src="images/diploma-2.jpg">
+                <div class="layer">
+                    <h3>Diploma in Cyber Security</h3>
+                    <p>Guarding the digital realm, one byte at a time🛡️💻</p>
+                    <a href="https://alison.com/certification/check/fb27ea56cb"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="diploma" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/diploma-3.jpg">
+                <div class="layer">
+                    <h3>Diploma in Website Development Using HTML and CSS</h3>
+                    <p>Building stunning websites from the ground up with HTML & CSS🌐✨</p>
+                    <a href="https://alison.com/certification/check/27d86e0a2c"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="diploma" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="images/diploma-4.jpg">
+                <div class="layer">
+                    <h3>Diploma in Information Technology Support</h3>
+                    <p>Empowering tech with a diploma in IT Support💻✨</p>
+                    <a href="https://alison.com/certification/check/7a0978e04f"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="certification-list">
+            <div class="certification" data-aos="fade-down" data-aos-duration="2000">
+                <img src="images/cert-1.jpg">
+                <div class="layer">
+                   <h3>Responsive Web Design</h3>
+                   <p>Design that adapts, so every screen shines🌟📱💻</p>
+                   <a href="https://www.freecodecamp.org/certification/chris_farad/responsive-web-design"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certification" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/cert-2.jpg">
+                <div class="layer">
+                   <h3>JavaScript Algorithms and Data Structures</h3>
+                   <p>Unlock the power of logic with JavaScript algorithms💻✨</p>
+                   <a href="https://www.freecodecamp.org/certification/chris_farad/javascript-algorithms-and-data-structures-v8"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certification" data-aos="fade-down" data-aos-duration="2000">
+                <img src="images/cert-3.jpg">
+                <div class="layer">
+                   <h3>Front End Development Libraries</h3>
+                   <p>Build stunning interfaces with Front End Libraries🚀✨</p>
+                   <a href="https://www.freecodecamp.org/certification/chris_farad/front-end-development-libraries"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certification" data-aos="fade-right" data-aos-duration="2000">
+                <img src="images/cert-4.jpg">
+                <div class="layer">
+                   <h3>Data Visualization</h3>
+                   <p>Turning numbers into stories📊✨</p>
+                   <a href="https://www.freecodecamp.org/certification/chris_farad/data-visualization"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certification" data-aos="zoom-in" data-aos-duration="2000">
+                <img src="images/cert-5.png">
+                <div class="layer">
+                   <h3>Scientific Computing with Python</h3>
+                   <p>Unleash the power of data with Python✨📊🔍</p>
+                   <a href="https://www.freecodecamp.org/certification/chris_farad/scientific-computing-with-python-v7"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certification" data-aos="fade-left" data-aos-duration="2000">
+                <img src="images/cert-6.jpg">
+                <div class="layer">
+                   <h3>Cyber security</h3>
+                   <p>Understand threats and prevent attacks🛡️🔍🚫</p>
+                   <a href="https://alison.com/certification/check/ff1909a038"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certification" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/cert-7.jpg">
+                <div class="layer">
+                   <h3>Computer Networking</h3>
+                   <p>Digital Network Security🔒🌐🛡️</p>
+                   <a href="https://alison.com/certification/check/2c750c8113"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certification" data-aos="fade-down" data-aos-duration="2000">
+                <img src="images/cert-8.png">
+                <div class="layer">
+                   <h3>Principles of Environmental Impact Assessment</h3>
+                   <p>Assessing impacts today for a greener tomorrow🌍✨</p>
+                   <a href="https://alison.com/certification/check/e964631a5f"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certification" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/cert-9.jpg">
+                <div class="layer">
+                   <h3>Health and Safety</h3>
+                   <p>Fire Safety Training and Planning: Stay Alert, Stay Safe🔥🧯🚒📋</p>
+                   <a href="https://alison.com/certification/check/d3d0c2cb21"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left" data-aos="fade-right" data-aos-duration="2000"> 
+                <h1 class="sub-title">Contact Me</h1>  
+                <p><i class="fa-solid fa-paper-plane"></i> akowuahchristian3@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +233545703639</p>
+                <div class="social-icons">
+                     <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://x.com/Chris_Farad"><i class="fa-brands fa-twitter-square"></i></a>
+                     <a href="https://www.instagram.com/chris_farad/"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com/in/christian-akowuah-3b965a325/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right" data-aos="fade-left" data-aos-duration="2000">  
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea ame="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Christian. Made with<i class="fa-regular fa-heart"></i> by Christian</p>
+    </div>
+        
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+         for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+         }
+          for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+   }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyz1GLgTdY7fQQMWc8pl7P7YuluZ06M6dqKv6iSATC0dCCjE9SFTzQGeGL96rq8lYvv/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+              msg.innerHTML = ""
+          },5000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+<html
+      
